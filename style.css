@@ -54,15 +54,17 @@ html, body {
 
 .content div.left {
 	float: left;
-	width: 18%;
+	width: 20%;
 }
 
 .content div.right {
 	float: right;
-	width: 18%;
+	width: 20%;
 }
 
 .content p {
 	position: relative;
-	width: 80%;
+	width: 100%;
+	font-size: 17px;
+	white-space: pre-line;
 }
