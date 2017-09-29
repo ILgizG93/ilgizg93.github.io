@@ -7,19 +7,8 @@
 html, body {
 	width: 100%;
 	height: 100%;
-}
-
-.background {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background: url('fon.jpg') repeat-y;
-	-moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-	min-width: 720px;
-	min-height: 520px;
+	background: #000000 url(fon.jpg) no-repeat fixed center top;
+	background-size: 100%;
 }
 
 .content-block {
@@ -40,6 +29,7 @@ html, body {
 .content {
 	float: center;
 	width: 90%;
+	height: 100%;
 	margin-top: 24px;
 	padding: 10px;
 	background-color: white;
@@ -67,4 +57,10 @@ html, body {
 	width: 100%;
 	font-size: 17px;
 	white-space: pre-line;
+}
+
+.icons {
+	padding: 0px;
+	margin: 10px;
+	width: 52px;
 }
