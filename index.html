@@ -16,7 +16,7 @@
 		<h1>Губайдуллин Ильгиз Ибрагимович</h1>
 		
 		<div align="right" style="float:right; margin-top:20px; margin-right:10px;">
-			<b>Дата рождения:</b> 15.04.1993 (24 года)<br>
+			<b>Дата рождения:</b> <span id="born_date>15.04.1993</span> (Возврат: <span id="age"></span>)<br>
 			<b>Место рождения:</b> РТ, г. Бугульма<br>
 			<b>Место проживания:</b> РТ, г. Казань<br>
 			<b>Семейное положение:</b> холост, детей нет<br>
@@ -86,4 +86,9 @@
 
 </body>
 
+<script>
+	var born_year = document.getElementById("born_year").innerHTML;
+	alert(born_year);
+</script>
+						
 </html>
