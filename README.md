@@ -1,2 +1,2 @@
-# ilgizg93.github.io
+# ilgizresume.github.io
 Резюме

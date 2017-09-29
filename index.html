@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html lang="ru>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Резюме Губайдуллин И.И.</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<div align="center" class="content-block">
+		<h1>Губайдуллин Ильгиз Ибрагимович</h1>
+		
+		<div align="right" style="float:right; margin-top:20px; margin-right:10px;">
+			<b>Дата рождения:</b> <span id="born_date">15.04.1993</span> (Возраcт: <span id="age"></span>)<br>
+			<b>Место рождения:</b> РТ, г. Бугульма<br>
+			<b>Место проживания:</b> РТ, г. Казань<br>
+			<b>Семейное положение:</b> холост, детей нет<br>
+			<b>Контактная информация:</b> <a target="blank" href="mailto:ilgiz_g93@mail.ru?subject=Предлагаем работу Вашей мечты">E-mail</a><br>
+			<b>Дата составления резюме:</b> 29.09.2017<br>
+		</div>
+		<div style="clear:both;"></div>
+		
+		<div align="right" class="content">
+			<div class="left" align="center">
+				<h3>Цель</h3>
+				<img class="icons" src="images/target.png" alt="target" />
+			</div>
+			<p align="right">Устроиться на интересную работу с достойной оплатой и перспективой карьерного роста.</p>
+			<div style="clear:both;"></div>
+		</div>
+		<div align="left" class="content">
+			<div class="right" align="center">
+				<h3>Образование</h3>
+				<img class="icons" src="images/education.png" alt="education" />
+			</div>
+			<p align="left"><i>2000-2009 гг.</i> неполное среднее образование (9 классов) СОШ №5.<br>
+				<i>2009-2013 гг.</i> среднее профессиональное образование (4 курса) ГАОУ СПО БМТ. Специальность «Программное обеспечение вычислительной техники и автоматизированных систем». Квалификация «Техник».<br>
+				<i>2014-по наст.</i> высшее образование. Казанский национальный исследовательский технологический университет. Специальность «Информационные системы и технологии». Квалификация «Бакалавр».</p>
+			<div style="clear:both;"></div>
+		</div>
+		<div align="right" class="content">
+			<div class="left" align="center">
+				<h3>Дополнительное образование</h3>
+				<img class="icons" src="images/certificate_2.png" alt="certificate 2" />
+			</div>
+			<p align="left"><i>2009 г.</i> Курс дополнительного образования по дисциплине «Черчение».<br>
+				<i>2009-2010 гг.</i> Дополнительное профессиональное образование. Квалификация «Пользователь ПЭВМ».<br>
+				<i>2017 г.</i> <a href="cert/SoftlineCert-Java.pdf" target="_BLANK">Java Сквозной Курс от А до Я. От Java программирования до разработки Java EE6 Web и EJB приложений с использованием баз данных (на примере MySQL).</a>
+			</p>
+			<div style="clear:both;"></div>
+		</div>
+		<div align="left" class="content">
+			<div class="right" align="center">
+				<h3>Опыт работы и полученные профессиональные навыки</h3>
+				<img class="icons" src="images/job.png" alt="job" />
+			</div>
+			<p align="left">Январь-февраль, март-апрель 2013 г. «ТНГ-Групп». Производственная и преддипломные практики. Занимался установкой ПО и обслуживанием орг. техники.<br>
+				Сентябрь 2013 – по наст. ОАО Международный аэропорт «Казань». Должность «Инженер по АСУТП (рук. группы)». <br>В обязанности входит: 
+				<ul style="padding:0px; margin:0px 30px; list-style-type:circle;">
+					<li>написание программ на Delphi (База данных - Oracle);</li> 
+					<li>сервисов на Python;</li> 
+					<li>веб-приложений на HTML, PHP (+PHPOffice), JavaScript (+jQuery);</li> 
+					<li>написание документации, инструкций;</li> 
+					<li>сопровождение, обучение пользователей.</li>
+				</ul></p>
+			<div style="clear:both;"></div>
+		</div>
+		<div align="right" class="content">
+			<div class="left" align="center">
+				<h3>Дополнительные навыки и интересы</h3>
+				<img class="icons" src="images/interest.png" alt="interest" />
+			</div>
+			<p align="left">Программирую на Delphi, PHP 5, JavaScript, Python, Java. Так же могу выполнять работу не высокой сложности в Adobe PhotoShop, Adobe Audition, MS Word, MS Excel, MS PowerPoint, OO Calc, OO Writer.<br>
+				Хорошие знания языка SQL, работа с запросами. Могу создавать базы данных в MS Access, MySQL, Oracle (8 и 10), MS SQL и манипулировать ими через Delphi, PHP.<br>
+				В данный момент совершенствую навыки работы Python.<br>
+				Знание английского языка – базовые навыки общения, чтение и перевод технической литературы (практически, без применения словаря).</p>
+			<div style="clear:both;"></div>
+		</div>
+		<div align="left" class="content">
+			<div class="right" align="center">
+				<h3>Личные качества</h3>
+				<img class="icons" src="images/certificate.png" alt="certificate" />
+			</div>
+			<p align="left">Аналитический склад ума, быстрая обучаемость, работоспособность, деловая этика, высокая степень ответственности, исполнительность, дисциплинированность, аккуратность.</p>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+
+</body>
+
+<script>
+	function getAge(dateString) {
+		var day = parseInt(dateString.substring(0,2));
+		var month = parseInt(dateString.substring(3,5));
+		var year = parseInt(dateString.substring(6,10));
+
+		var today = new Date();
+		var birthDate = new Date(year, month - 1, day); // 'month - 1' т.к. нумерация месяцев начинается с 0 
+		var age = today.getFullYear() - birthDate.getFullYear();
+		var m = today.getMonth() - birthDate.getMonth();
+		if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) { 
+			age--;
+		}
+		return age;
+    }
+
+	var born_date = document.getElementById("born_date").innerHTML,
+		age = document.getElementById("age");
+	age.innerHTML = getAge(born_date);	
+</script>
+						
+</html>
